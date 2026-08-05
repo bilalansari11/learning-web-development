@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* overflow-x: hidden; */
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    box-shadow: 0px 1px 5px 1px grey;
+    background-color: cornsilk;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    /* border: 1px solid red; */
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 30px;
+    font-weight: 600;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+.main-box {
+    /* border: 1px solid red; */
+    background-color: burlywood;
+    width: 98.8vw;
+    height: 80vh;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.sec-boxes {
+    /* border: 1px solid green; */
+    background-color: azure;
+    width: 30%;
+    height: 80%;
+    display: inline-block;
+    margin: 40px 80px;
+}
+
+.banner {
+    /* border: 1px solid yellowgreen; */
+    background-color: tan;
+    color: white;
+    border-radius: 10px;
+    width: 80vw;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.banner p {
+    font-size: 50px;
+}
+
+.side-icon {
+    /* border: 1px solid black; */
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+footer {
+    /* border: 1px solid red; */
+    background-color: bisque;
+    width: 98.8vw;
+    height: 10vh;
+
+}
+
+footer p {
+    text-align: end;
+    margin-right: 40px;
+    padding-top: 20px;
+}
