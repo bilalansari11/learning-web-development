@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex Box</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            height: 80vh;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            /* when there is single line we use align-items */
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+            /* align-content: flex-start; */
+            /* when there are multi-lines we use align-content */
+            /* there is no justify-items property */
+            flex-flow: row wrap;
+            /* gap: 30px; */
+            /* row-gap: 20px;
+            column-gap: 14px; */
+            gap: 40px 20px;
+        }
+
+        .item {
+            /* flex-grow: 1; */
+            width: 52px;
+            height: 52px;
+            border: 2px solid black;
+            /* margin: 4px; */
+            background-color: blueviolet;
+            color: white;
+        }
+
+        .item1 {
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+            align-self: flex-end;
+
+        }
+
+        /* .order-1 {
+            order: 1; /* here 1 = last, default order is 0  */
+        /* } */
+
+        /* .order-2 { */
+        /* order: 2; here 2 = 2nd last */
+        /* } */
+
+        /* .order-3 {
+            order: 3;
+        } */
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="item item1">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item order-1">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+        </div>
+    </main>
+</body>
+
+</html>
