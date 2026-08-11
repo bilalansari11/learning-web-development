@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    width: 120px;
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+}
+
+nav ul li {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 14px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+.drop-icon {
+    width: 12px;
+}
+
+.lang-icon {
+    width: 20px;
+}
