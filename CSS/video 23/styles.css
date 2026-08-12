@@ -19,6 +19,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 14px;
+    font-family: 'Segoe UI';
 }
 
 nav ul li {
@@ -26,9 +27,6 @@ nav ul li {
     gap: 4px;
     align-items: center;
     font-size: 14px;
-}
-
-nav ul li:hover {
     cursor: pointer;
 }
 
